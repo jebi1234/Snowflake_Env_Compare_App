@@ -1,5 +1,14 @@
 import streamlit as st
 import snowflake.connector
+import subprocess
+import sys
+
+# Install requirements.txt if not already installed
+try:
+    import snowflake.connector
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+
 
 st.set_page_config(page_title="Snowflake Metadata Comparison")
 st.title("Snowflake Environment Configuration and Metadata Comparison")
