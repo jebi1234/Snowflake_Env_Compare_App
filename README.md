@@ -1,4 +1,4 @@
-🧭 How to Use the App
+<h1>How to Use the App</h1>
 
 **1. Configure Environments**
 Use the dropdown to select either DEV or QA.
@@ -9,7 +9,8 @@ Account
 Warehouse
 Database
 Schema
-🔒 Password and Account fields are masked for security.
+
+Password and Account fields are masked for security.
 
 **2. Reset or Copy Configs**
 Use Reset DEV Config or Reset QA Config to clear inputs.
